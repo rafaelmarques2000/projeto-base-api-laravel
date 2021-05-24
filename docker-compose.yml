@@ -18,7 +18,6 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./:/var/www
-    #      - ./.docker/php/php.conf:/etc/php/7.4/pool.d/www.conf
     networks:
       - estudo
   db_postgres_sql:
